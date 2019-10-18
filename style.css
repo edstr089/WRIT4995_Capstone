@@ -5,7 +5,7 @@ box-sizing: border-box;
 body {
 font-family: Arial;
 padding: 10px;
-background: #e6e6e6;
+background: #ffedb5;
 }
 
 .header {
@@ -17,17 +17,15 @@ background: white;
 .header h1 {
 font-size: 50px;
 font-family: georgia;
-color: #000000;
+color: #7a0019;
 }
 
-/* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #7a0019;
   font-family: Arial;
 }
 
-/* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 16px;
@@ -37,13 +35,11 @@ color: #000000;
   text-decoration: none;
 }
 
-/* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -56,7 +52,7 @@ color: #000000;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #d69aa6;
 }
 
 .dropdown-content {
@@ -78,7 +74,7 @@ color: #000000;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #ffcc33;
 }
 
 .dropdown:hover .dropdown-content {
@@ -100,7 +96,7 @@ width: 50%;
 .rightcolumn {
 float: right;
 width: 50%;
-background-color: #e6e6e6;
+background-color: #ffedb5;
 padding-left: 20px;
 position: sticky;
 }
@@ -136,4 +132,10 @@ margin-top: 20px;
   float: none;
   width: 100%;
 }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
